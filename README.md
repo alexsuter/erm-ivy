@@ -1,6 +1,6 @@
 # erm-ivy
 
-
+```mermaid
 erDiagram
     IWA_SECURITYSYSTEM {
         bigint SecuritySystemId PK
@@ -209,3 +209,4 @@ erDiagram
     IWA_SECURITYSYSTEM ||--o{ IWA_BLOB : sec_scope
     IWA_SECURITYMEMBER ||--o{ IWA_BLOB : created_by
     IWA_SECURITYMEMBER ||--o{ IWA_BLOB : modified_by
+```
